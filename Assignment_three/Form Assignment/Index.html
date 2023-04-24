@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment Form</title>
+<style>
+    label {
+       width: 195px;
+       display: inline-block;
+       padding-bottom: 10px;
+       margin-right: 50px;
+       text-align: left;
+       vertical-align: top;
+       font-weight: bold;
+  }
+  select {
+    text-align: left;
+  }
+</style>
+</head>
+<body>
+    <fieldset>
+        <legend>Your Address</legend>
+            <form action="#" method="#">
+                <div>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" required>
+            </div>
+            <div>
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" required>
+            </div>
+            <div>
+                <label for="street">Street</label>
+                <input type="text" id="street" required>
+            </div>
+            <div>
+                <label for="city">City</label>
+                <input type="text" id="city">
+            </div>
+
+    </fieldset>
+    <fieldset>
+        <legend>Additional Information</legend>
+                <div>
+                <label for="biography">Biography</label>
+                <textarea name="text" id="biography" maxlength="1500" required></textarea>
+            </div>
+            <div>
+                <label for="image">Image</label>
+               <input type="file" id="image"> 
+            </style>
+            </div>
+            <div>
+                <label for="agegroup">Age group</label>
+                <select name="agegroup" id="Age group">
+                <option value="0 to 9 years">0 to 9 years</option>
+                <option value="10 to 19 years">10 to 19 years</option>
+                <option value="20 to 29 years">20 to 29 years</option>
+                <option value="30 to 39 years">30 to 39 years</option>
+            </select>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Interests</legend>
+                    <div>
+                    <label for="hobbies">Hobbies</label>
+                    <select name="text" id="hobbies" size="4">
+                    <option value="playingsoccer">Playing Soccer</option>
+                    <option value="dancing">Dancing</option>
+                    <option value="Gardening">Gardening</option>
+                    <option value="watchingmovies">Watching movies</option>
+                    <option value="driving">Driving</option>
+                    <option value="swimming">Swimming</option>
+                    <option value="flying">Flying</option>
+                    <option value="playinggames">Playing games</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="car">Favourite Car?</label>
+                    <select name="car" id="car">
+                        <option value="volvo">Volvo</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="benz">Benz</option>
+                        <option value="corolla">Corolla</option>
+                        </select>
+                </div>
+                <div>
+                    <label for="transport">Favourite Public transport?</label>
+                    <select name="trans" id="transport" size="4">
+                        <optgroup label="Ground">
+                    <option value="train">Train</option>
+                    <option value="bus">Bus</option>
+                </optgroup>
+                <optgroup label="Water">
+                    <option value="boat">Boat</option>
+                    <option value="ship">Ship</option>
+                </optgroup>
+                </select>
+                </div>
+        </form>
+    </fieldset>
+</body>
+</html>
